@@ -1,6 +1,6 @@
 package depoYönetimi;
 
-public class UrunBilgileri {
+public class Urunler {
 
     public String urunIsmi;
     public String uretici;
@@ -9,10 +9,10 @@ public class UrunBilgileri {
     public double miktar;
     public String rafNo;
 
-    public UrunBilgileri() {
+    public Urunler() {
     }
 
-    public UrunBilgileri(String urunIsmi, String uretici, String birimi, int ıd) {
+    public Urunler(String urunIsmi, String uretici, String birimi, int ıd) {
         this.urunIsmi = urunIsmi;
         this.uretici = uretici;
         this.birimi = birimi;
